@@ -2,7 +2,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
 
-**版本**: v0.8.3
+**版本**: v0.8.6
 
 ---
 
@@ -54,11 +54,11 @@
 
 | 提供商 | 默认模型 | 格式 |
 |----------|---------------|--------|
-| **免费**（默认） | MiniMax-M2.7-highspeed | Anthropic |
-| **DeepSeek** | deepseek-chat | OpenAI |
-| **OpenAI** | gpt-4o | OpenAI |
-| **Anthropic** | claude-sonnet-4-20250514 | Anthropic |
-| **MiniMax** | MiniMax-M2.7-highspeed | Anthropic |
+| **免费**（默认） | glm-4-flash | Anthropic |
+| **DeepSeek** | deepseek-v4-flash | OpenAI |
+| **OpenAI** | gpt-5 | OpenAI |
+| **Anthropic** | claude-haiku-4-5 | Anthropic |
+| **MiniMax** | MiniMax-M2.7 | Anthropic |
 | **智谱 AI** | glm-4-flash | Anthropic |
 
 ### 调用限额

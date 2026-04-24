@@ -2,7 +2,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
 
-**Version**: v0.8.3
+**Version**: v0.8.6
 
 ---
 
@@ -54,11 +54,11 @@ You might have a similar experience: reading an article in a foreign language, e
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Free** (Default) | MiniMax-M2.7-highspeed | Anthropic |
-| **DeepSeek** | deepseek-chat | OpenAI |
-| **OpenAI** | gpt-4o | OpenAI |
-| **Anthropic** | claude-sonnet-4-20250514 | Anthropic |
-| **MiniMax** | MiniMax-M2.7-highspeed | Anthropic |
+| **Free** (Default) | glm-4-flash | Anthropic |
+| **DeepSeek** | deepseek-v4-flash | OpenAI |
+| **OpenAI** | gpt-5 | OpenAI |
+| **Anthropic** | claude-haiku-4-5 | Anthropic |
+| **MiniMax** | MiniMax-M2.7 | Anthropic |
 | **Zhipu AI** | glm-4-flash | Anthropic |
 
 ### Rate Limits
