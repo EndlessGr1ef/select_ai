@@ -1,4 +1,4 @@
-<h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> AI划词解释</h1>
+<h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> 解语</h1>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
 
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 什么是 AI 划词解释？
+## 🎯 什么是解语？
 
 > **选中文字，AI 基于上下文理解，直接告诉你答案**
 
 你有没有过这样的经历：读一篇外语文章，突然遇到一个生词，然后就开始复制、切换搜索引擎、粘贴、等待加载……好不容易查到意思了，刚才看到哪儿了？
 
-**AI 划词解释就是为了解决这个问题而生的。** 在任何网页上选中文字，就能获得即时、符合上下文的解释，不会打断你的阅读节奏。
+**解语就是为了解决这个问题而生的。** 在任何网页上选中文字，就能获得即时、符合上下文的解释，不会打断你的阅读节奏。
 
 ---
 
@@ -20,7 +20,7 @@
 
 | | |
 |:---:|:---|
-| 🎯 **AI 划词解释** | 选中文字，悬浮立刻显示 AI 解释与翻译 |
+| 🎯 **划词解释** | 选中文字，悬浮立刻显示 AI 解释与翻译 |
 | 🧠 **上下文理解** | 基于当前页面内容智能分析，给出更准确的释义 |
 | 🇯🇵 **日语假名流式标注** | 选中日语自动标注假名，汉字读音一目了然 |
 | 📖 **双语字幕式翻译** | 原文+译文对照阅读，完美支持英语/日语/外文网站 |
@@ -84,7 +84,7 @@
 ## ❓ 常见问题
 
 <details>
-<summary><strong>AI划词解释是免费的吗？</strong></summary>
+<summary><strong>解语是免费的吗？</strong></summary>
 
 扩展程序免费安装。你只需支付所使用的 AI API 调用费用（DeepSeek、OpenAI 等）。大多数提供商都有慷慨的免费额度。
 </details>
