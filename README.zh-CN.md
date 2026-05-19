@@ -26,7 +26,7 @@
 | 📖 **双语字幕式翻译** | 原文+译文对照阅读，完美支持英语/日语/外文网站 |
 | 🖼️ **OCR 图文识别** | 右键图片或截图提取文字并解释 |
 | 🌊 **流式响应** | 实时观看 AI 生成答案，无需等待 |
-| ⚡ **6 大 AI 提供商** | OpenAI、Anthropic、DeepSeek、MiniMax、智谱 AI，或内置免费额度 |
+| ⚡ **6 大 AI 提供商** | OpenAI、Anthropic、DeepSeek、MiniMax、智谱 AI、Kimi，或内置免费额度 |
 | 🔒 **隐私优先** | API Key 本地存储，不收集任何数据 |
 
 ### 适合谁用？
@@ -54,20 +54,20 @@
 
 | 提供商 | 默认模型 | 格式 |
 |----------|---------------|--------|
-| **免费**（默认） | glm-4-flash | Anthropic |
+| **免费**（默认） | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5 | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M2.7 | Anthropic |
-| **智谱 AI** | glm-4-flash | Anthropic |
+| **智谱 AI** | glm-4-flash | OpenAI |
+| **Kimi** | kimi-k2.6 | OpenAI |
 
 ### 调用限额
 
 | 用户类型 | 每日限额 |
 |-----------|-------------|
-| 访客 | 40 次 |
+| 访客 | 20 次 |
 | 免费用户 | 100 次 |
-| Pro 用户 | 自定义 |
 
 ---
 

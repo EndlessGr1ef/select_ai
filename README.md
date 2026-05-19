@@ -26,7 +26,7 @@ You might have a similar experience: reading an article in a foreign language, e
 | 📖 **Bilingual Translation** | Side-by-side 原文+译文, perfect for EN/JP/foreign sites |
 | 🖼️ **OCR Recognition** | Right-click images or take screenshots to extract and explain text |
 | 🌊 **Streaming Responses** | Watch AI generate answers in real-time |
-| ⚡ **6 AI Providers** | OpenAI, Anthropic, DeepSeek, MiniMax, Zhipu AI, or built-in free tier |
+| ⚡ **6 AI Providers** | OpenAI, Anthropic, DeepSeek, MiniMax, Zhipu AI, Kimi, or built-in free tier |
 | 🔒 **Privacy First** | Your API key stored locally, no data collection |
 
 ### Who's It For
@@ -54,20 +54,20 @@ You might have a similar experience: reading an article in a foreign language, e
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Free** (Default) | glm-4-flash | Anthropic |
+| **Free** (Default) | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5 | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M2.7 | Anthropic |
-| **Zhipu AI** | glm-4-flash | Anthropic |
+| **Zhipu AI** | glm-4-flash | OpenAI |
+| **Kimi** | kimi-k2.6 | OpenAI |
 
 ### Rate Limits
 
 | User Type | Daily Limit |
 |-----------|-------------|
-| Guest | 40 requests |
+| Guest | 20 requests |
 | Free User | 100 requests |
-| Pro User | Custom |
 
 ---
 
