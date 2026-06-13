@@ -1,73 +1,145 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> 解语</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
 
-**版本**: v0.11.0
+**当前版本**: v0.11.0
+
+<p align="center">
+  <strong>💛 支持项目</strong><br/>
+  <sub>独立开发，没有广告。如果解语帮到了你，欢迎请我喝瓶可乐。</sub><br/>
+  <img src="./assets/wechat-reward-code.png" alt="微信赞赏码" width="140" />
+</p>
 
 ---
 
-## 🎯 什么是解语？
+<p align="center">
+  <img src="./assets/hero-select-explain.png" alt="解语划词解释" width="90%">
+</p>
 
-> **选中文字，AI 基于上下文理解，直接告诉你答案**
+<p align="center">
+  <img src="./assets/demo.gif" alt="解语使用演示" width="90%">
+</p>
 
-你有没有过这样的经历：读一篇外语文章，突然遇到一个生词，然后就开始复制、切换搜索引擎、粘贴、等待加载……好不容易查到意思了，刚才看到哪儿了？
+## 🎯 选中即解，语意自明
 
-**解语就是为了解决这个问题而生的。** 在任何网页上选中文字，就能获得即时、符合上下文的解释，不会打断你的阅读节奏。
+> **选中文字，AI 基于上下文理解，直接告诉你答案。**
+
+读外文时遇到生词，你是不是也经历过：复制、切换 App、粘贴、等待……好不容易查到意思，刚才的阅读节奏也没了。而且很多工具只给一个孤立的词义，放回原文里到底想表达什么，还是要自己猜。
+
+**解语不是又一个查词工具。** 它想做的是让网页本身具备一层 AI 理解能力：选中就解释，不跳出、不中断，给出的理解贴合上下文。
+
+无需注册，无需配置 API Key，安装即用。
 
 ---
 
 ## ✨ 核心功能
 
+### 1. 划词解释
+
+在任意网页选中文字，解语自动提取上下文并给出解释——不是简单翻译，而是真正贴合语境的理解。
+
+<p align="center">
+  <img src="./assets/feature-explain.png" alt="上下文感知的划词解释" width="80%">
+</p>
+
+- 智能识别术语、标题、代码或普通句子
+- 上下文权重感知，解释更贴合原文
+- 流式响应，逐字呈现
+
+### 2. 双语翻译
+
+长文章也能完整翻译，不再中途截断。原文与译文对照显示。
+
+<p align="center">
+  <img src="./assets/feature-translation.png" alt="双语翻译" width="80%">
+</p>
+
+- Token 感知分块，长内容翻译不截断
+- 翻译和解释可配置不同的 AI 模型
+- 输出语言可自定义
+
+### 3. YouTube 视频双语字幕
+
+看外语视频时一键开启 AI 双语字幕。复用视频已有字幕，AI 实时翻译并用独立字幕 overlay 显示。
+
+<p align="center">
+  <img src="./assets/feature-youtube.png" alt="YouTube 双语字幕" width="80%">
+</p>
+
+- 无需复制字幕，一键开启
+- 跟随播放进度实时同步
+- 字幕字号自由调节
+- 智能合并短片段，减少闪烁
+
+### 4. 图片识别 / 图片理解
+
+右键网页图片或截图，提取并解释其中的文字、图表与界面。
+
+<p align="center">
+  <img src="./assets/feature-ocr.png" alt="图片识别" width="80%">
+</p>
+
+- OCR 模式：完全本地运行，不消耗 API
+- AI Vision 模式：直接看懂图表、UI 截图、手写文字
+- 截图模式：框选屏幕任意区域
+
+### 更多能力
+
 | | |
 |:---:|:---|
-| 🎯 **划词解释** | 选中文字，悬浮立刻显示 AI 解释与翻译 |
-| 🧠 **上下文理解** | 基于当前页面内容智能分析，给出更准确的释义 |
-| 🇯🇵 **日语假名流式标注** | 选中日语自动标注假名，汉字读音一目了然 |
-| 📖 **双语字幕式翻译** | 原文+译文对照阅读，完美支持英语/日语/外文网站 |
-| 🖼️ **OCR 图文识别** | 右键图片或截图提取文字并解释 |
-| 🌊 **流式响应** | 实时观看 AI 生成答案，无需等待 |
-| ⚡ **6 大 AI 提供商** | OpenAI、Anthropic、DeepSeek、MiniMax、智谱 AI、Kimi，或内置免费额度 |
-| 🔒 **隐私优先** | API Key 本地存储，不收集任何数据 |
-
-### 适合谁用？
-
-| 目标用户 | |
-|:---|:---|
-| 🌏 外语学习者 | 💻 程序员 |
-| 📚 文献阅读者 | ✈️ 留学党 |
-| 🇯🇵 日语爱好者 | 🌍 多语言工作者 |
+| 🧠 **思考模式** | 需要更深入分析时一键开启 |
+| 🔊 **文字转语音** | 朗读解释内容，解放双眼 |
+| ⌨️ **键盘快捷键** | Alt+E 解释、Alt+T 翻译、Alt+S 截图识别 |
+| 🇯🇵 **日语假名标注** | 自动为日文汉字标注振假名 |
+| 🔒 **隐私优先** | API Key 本地存储，不追踪用户 |
 
 ---
 
-## 💡 产品理念
+## 💡 适合谁用
 
-> **不只是翻译。在你阅读的时候，帮你把卡住的地方直接解开，不打断你。**
-
-- ⚡ **快** — 选中就有答案，不打断阅读节奏
-- 🧠 **懂你** — 明白你读的语境，不只是孤立查词
-- 📝 **总结** — 选中标题或段落，直接整理整篇内容
-- 🔒 **安全** — 你的数据只在你本地，不会上传到服务器
+| | |
+|:---:|:---|
+| 🌏 外语学习者 | 💻 阅读英文技术文档的开发者 |
+| 📚 文献研究者与高校师生 | ✈️ 留学生与准留学生 |
+| 🇯🇵 日语学习者 | 🎬 看外语视频的用户 |
+| 📰 外文资讯读者 | 📑 需要读外文合同/报告的职场人 |
+| 🧑‍🏫 教师与翻译从业者 | 🌍 出境旅行规划者 |
+| 🎮 浏览国际游戏社区的玩家 | ✍️ 需要研究全球趋势的内容创作者 |
 
 ---
 
-## 🔌 支持的 API
+## 🔌 AI 提供商
 
 | 提供商 | 默认模型 | 格式 |
-|----------|---------------|--------|
-| **免费**（默认） | glm-4-flash | OpenAI |
+|--------|----------|------|
+| **AI划词解释(免费)**（默认） | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5 | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M2.7 | Anthropic |
 | **智谱 AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
+| **自定义** | 用户自定义 | OpenAI / Anthropic |
 
-### 调用限额
+### 免费额度
 
 | 用户类型 | 每日限额 |
-|-----------|-------------|
-| 访客 | 20 次 |
+|----------|----------|
+| 游客 | 20 次 |
 | 免费用户 | 100 次 |
+
+---
+
+## ⌨️ 键盘快捷键
+
+| 快捷键 | 作用 |
+|--------|------|
+| `Alt + E` | 解释选中文本 |
+| `Alt + T` | 翻译选中文本或整页 |
+| `Alt + S` | 截图识别 |
+| `Esc` | 关闭解释面板 |
+
+可在 `chrome://extensions/shortcuts` 自定义任意快捷键。
 
 ---
 
@@ -75,9 +147,10 @@
 
 | | |
 |:---:|:---|
-| 💾 **本地存储** | 你的 API Key 保存在浏览器本地 |
-| 🔒 **无数据收集** | 不向任何服务器上传用户数据 |
-| ⚔️ **最小权限** | 仅请求功能所需的必要权限 |
+| 💾 **本地存储** | API Key 仅保存在浏览器本地 |
+| 🔒 **不收集数据** | 不上传任何用户数据到服务器 |
+| 🔗 **直连提供商** | 使用自定义 AI 时，请求直接发往提供商，不经我们的服务器 |
+| ⚔️ **最小权限** | 仅请求功能所需的最小权限 |
 
 ---
 
@@ -86,31 +159,52 @@
 <details>
 <summary><strong>解语是免费的吗？</strong></summary>
 
-扩展程序免费安装。你只需支付所使用的 AI API 调用费用（DeepSeek、OpenAI 等）。大多数提供商都有慷慨的免费额度。
+扩展本身免费安装，内置免费 AI 额度（有每日限额）。也可以添加自己的 API Key，无限使用。
 </details>
 
 <details>
-<summary><strong>没有 API 也能用吗？</strong></summary>
+<summary><strong>不填 API Key 能用吗？</strong></summary>
 
-可以！插件内置了免费大模型 API，无需配置即可直接使用。每日有限次免费额度，用完可自行配置 API Key 继续使用。
+可以。内置免费额度开箱即用，无需任何配置。
+</details>
+
+<details>
+<summary><strong>如何获取 API Key？</strong></summary>
+
+在对应 AI 提供商官网注册账号，在控制台或 API 管理页面创建 Key。例如：OpenAI（platform.openai.com）、Anthropic（console.anthropic.com）、MiniMax（platform.minimax.io）。
+</details>
+
+<details>
+<summary><strong>为什么返回结果是空的？</strong></summary>
+
+可能原因：1) API Key 不正确或已过期；2) 网络连接问题；3) 选中文本过短。请检查 API 设置中的 Key 是否正确，并点击「测试连接」。
+</details>
+
+<details>
+<summary><strong>错误代码代表什么？</strong></summary>
+
+- 401：API Key 无效
+- 403：权限不足或未开通模型
+- 429：请求过于频繁，稍后重试
+- 500：AI 服务端问题
 </details>
 
 <details>
 <summary><strong>支持哪些语言？</strong></summary>
 
-支持 AI 模型所支持的所有语言 — 包括英语、中文、日语、韩语、西班牙语、法语、德语等。
+支持底层 AI 模型能处理的所有语言，包括中文、英语、日语、韩语、西班牙语、法语、德语等。
 </details>
 
 <details>
-<summary><strong>在所有网站都能用吗？</strong></summary>
+<summary><strong>支持所有网站吗？</strong></summary>
 
-大多数网站都支持。不支持 chrome:// 系统页面和部分受限域名。
+支持大多数网站，chrome:// 等系统页面和部分受限域名除外。
 </details>
 
 <details>
-<summary><strong>OCR 功能呢？</strong></summary>
+<summary><strong>图片识别需要下载什么？</strong></summary>
 
-右键点击任意图片或截图提取文字并解释。语言包首次使用时自动下载（英语: 20MB / 日语: 50MB / 中文: 50MB）。
+OCR 语言包首次使用自动下载（英语 20MB / 日语 50MB / 中文 50MB）。AI Vision 模式可以直接理解图表、UI 截图和手写文字。
 </details>
 
 ---
@@ -118,19 +212,24 @@
 ## 🚀 快速开始
 
 ```
-1. 下载 select-ai.zip
-2. 解压 → Chrome → chrome://extensions/
+1. 从最新 Release 下载 select-ai.zip
+2. 解压 → 打开 Chrome → 访问 chrome://extensions/
 3. 开启开发者模式 → 加载已解压的扩展程序
-4. 打开选项页面 → 添加你的 API Key（或使用内置免费额度）
-5. 在任意网页选中文字 → 点击悬浮按钮
+4. 在任意网页选中文字 → 点击悬浮 AI 按钮
 ```
 
-<div align="center">
-
-⭐ 如果对你有帮助，欢迎给我们一个 Star
+也可以直接从 [Chrome 应用商店](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) 安装。
 
 ---
 
-*用 ❤️ 让外语阅读不再困难*
+## 📬 反馈
+
+由 [EndlessGr1ef](https://github.com/EndlessGr1ef) 独立开发与维护。遇到 bug、有想法，或者只是想聊聊，欢迎提交 issue 或联系作者。
+
+<div align="center">
+
+⭐ 喜欢的话，点个 Star 支持
+
+*Made with ❤️，让外文阅读更轻松*
 
 </div>

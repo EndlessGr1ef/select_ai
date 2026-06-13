@@ -1,56 +1,114 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> Select AI</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
 
 **Version**: v0.11.0
 
----
-
-## 🎯 What Is Select AI?
-
-> **Select text, AI understands context, gives you the answer**
-
-You might have a similar experience: reading an article in a foreign language, encountering an unfamiliar word, then going through the tedious process of copying, searching, pasting, waiting... and by the time you get the answer, you've lost your place in the text.
-
-**Select AI is built to solve exactly this.** Select any text on any webpage, and get instant, context-aware explanations without interrupting your reading flow.
+<p align="center">
+  <strong>💛 Support the project</strong><br/>
+  <sub>Indie open-source, no ads. If Select AI helped you, consider buying me a cola.</sub><br/>
+  <img src="./assets/wechat-reward-code.png" alt="WeChat reward code" width="140" />
+</p>
 
 ---
 
-## ✨ Key Features
+<p align="center">
+  <img src="./assets/hero-select-explain.png" alt="Select AI explaining selected text" width="90%">
+</p>
+
+<p align="center">
+  <img src="./assets/demo.gif" alt="Select AI demo" width="90%">
+</p>
+
+## 🎯 Select Any Text. Get It Explained.
+
+> **Select text, AI understands context, gives you the answer.**
+
+Reading in a foreign language and hit an unfamiliar word? The usual routine — copy, switch apps, paste, wait — breaks your flow and often gives you an isolated definition that doesn't fit the sentence.
+
+**Select AI is not just another dictionary.** It's an AI understanding layer that lives inside the webpage. Select any text, click the floating button, and get a context-aware explanation right where you are reading — no tab switching, no interruption.
+
+No signup. No API key required. Install and go.
+
+---
+
+## ✨ What It Does
+
+### 1. Context-Aware Selection Explainer
+
+Select text on any webpage. Select AI analyzes surrounding context and tells you what it means — not just a translation, but an explanation that fits the context.
+
+<p align="center">
+  <img src="./assets/feature-explain.png" alt="Context-aware explanation" width="80%">
+</p>
+
+- Detects whether you selected a term, title, code snippet, or plain sentence
+- Weighs context for more accurate results
+- Streams the answer word by word in real time
+
+### 2. Bilingual Translation
+
+Translate long articles without truncation. Original and translated text are shown side by side.
+
+<p align="center">
+  <img src="./assets/feature-translation.png" alt="Bilingual translation" width="80%">
+</p>
+
+- Token-aware chunking handles long content
+- Translation and explanation can use different AI models
+- Output language is customizable
+
+### 3. YouTube Bilingual Subtitles
+
+One-click AI dual subtitles for YouTube videos. Reuses the video's existing captions and overlays a bilingual translation synced to playback.
+
+<p align="center">
+  <img src="./assets/feature-youtube.png" alt="YouTube bilingual subtitles" width="80%">
+</p>
+
+- No need to copy subtitles
+- Syncs with playback progress
+- Adjustable font size
+- Smart segment merging reduces flicker
+
+### 4. Image Recognition
+
+Right-click any image or take a screenshot to extract and explain text. Supports both local OCR and AI vision models.
+
+<p align="center">
+  <img src="./assets/feature-ocr.png" alt="Image recognition" width="80%">
+</p>
+
+- OCR mode: completely local, no API cost
+- AI Vision mode: understands charts, UI screenshots, handwriting
+- Screenshot mode: select any area of the screen
+
+### More Capabilities
 
 | | |
 |:---:|:---|
-| 🎯 **AI Selection Explainer** | Select text, get instant AI explanation & translation |
-| 🧠 **Context Understanding** | Analyzes surrounding content for accurate meanings |
-| 🇯🇵 **Japanese Ruby Annotations** | Auto-display kana above kanji for instant reading |
-| 📖 **Bilingual Translation** | Side-by-side 原文+译文, perfect for EN/JP/foreign sites |
-| 🖼️ **OCR Recognition** | Right-click images or take screenshots to extract and explain text |
-| 🌊 **Streaming Responses** | Watch AI generate answers in real-time |
-| ⚡ **6 AI Providers** | OpenAI, Anthropic, DeepSeek, MiniMax, Zhipu AI, Kimi, or built-in free tier |
-| 🔒 **Privacy First** | Your API key stored locally, no data collection |
-
-### Who's It For
-
-| Target Users | |
-|:---|:---|
-| 🌏 Language Learners | 💻 Programmers |
-| 📚 Researchers | ✈️ Int'l Students |
-| 🇯🇵 Japanese Enthusiasts | 🌍 Multilingual Professionals |
+| 🧠 **Thinking Mode** | Deeper analysis when you need it |
+| 🔊 **Text-to-Speech** | Read explanations aloud |
+| ⌨️ **Keyboard Shortcuts** | Alt+E explain, Alt+T translate, Alt+S screenshot OCR |
+| 🇯🇵 **Japanese Kana Ruby** | Auto furigana above kanji |
+| 🔒 **Privacy First** | API key stays local; no tracking |
 
 ---
 
-## 💡 Philosophy
+## 💡 Who's It For
 
-> **Not just translation — it unblocks you while you're reading, without interrupting your flow.**
-
-- ⚡ **Quick** — Instant answer on selection, no reading flow interruption
-- 🧠 **Smart** — Understands context, not just isolated definitions
-- 📝 **Summarizes** — Select a heading or paragraph to summarize the whole article
-- 🔒 **Safe** — Your data stays local, never uploaded
+| | |
+|:---:|:---|
+| 🌏 Language Learners | 💻 Developers reading English docs |
+| 📚 Researchers & Academics | ✈️ International Students |
+| 🇯🇵 Japanese Learners | 🎬 People watching foreign videos |
+| 📰 News Readers in Other Languages | 📑 Professionals reading contracts & reports |
+| 🧑‍🏫 Teachers & Translators | 🌍 Travelers planning trips abroad |
+| 🎮 Gamers reading international communities | ✍️ Content creators researching global trends |
 
 ---
 
-## 🔌 Supported APIs
+## 🔌 AI Providers
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
@@ -61,13 +119,27 @@ You might have a similar experience: reading an article in a foreign language, e
 | **MiniMax** | MiniMax-M2.7 | Anthropic |
 | **Zhipu AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
+| **Custom** | User-defined | OpenAI / Anthropic |
 
-### Rate Limits
+### Free Tier Limits
 
 | User Type | Daily Limit |
 |-----------|-------------|
 | Guest | 20 requests |
 | Free User | 100 requests |
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Alt + E` | Explain selected text |
+| `Alt + T` | Translate selected text or full page |
+| `Alt + S` | Screenshot OCR |
+| `Esc` | Close explanation panel |
+
+Custom shortcuts can be set at `chrome://extensions/shortcuts`.
 
 ---
 
@@ -77,6 +149,7 @@ You might have a similar experience: reading an article in a foreign language, e
 |:---:|:---|
 | 💾 **Local Storage** | Your API key is stored locally in your browser |
 | 🔒 **No Data Collection** | No user data is uploaded to any server |
+| 🔗 **Direct Provider Connection** | Custom AI requests go straight to the provider, not through our servers |
 | ⚔️ **Minimal Permissions** | Only requests necessary permissions for functionality |
 
 ---
@@ -86,13 +159,34 @@ You might have a similar experience: reading an article in a foreign language, e
 <details>
 <summary><strong>Is Select AI free?</strong></summary>
 
-The extension is free to install. You only pay for the AI API calls you make (DeepSeek, OpenAI, etc.). Most providers offer generous free tiers.
+Yes. The extension is free to install and includes a built-in free AI tier with daily limits. You can also add your own API key for unlimited use.
 </details>
 
 <details>
 <summary><strong>Can I use it without an API key?</strong></summary>
 
-Yes! The extension includes a built-in free LLM API — no configuration needed. You get free daily usage limits, or you can add your own API key for unlimited use.
+Yes. The built-in free tier works out of the box — no configuration needed.
+</details>
+
+<details>
+<summary><strong>How do I get an API key?</strong></summary>
+
+Register at your chosen provider's platform (e.g., OpenAI, Anthropic, DeepSeek) and create a key in the API console. Then paste it into the extension's API Settings.
+</details>
+
+<details>
+<summary><strong>Why is the result empty?</strong></summary>
+
+Common causes: invalid or expired API key, network issues, or selected text too short. Check your API Settings and click "Test Connection".
+</details>
+
+<details>
+<summary><strong>What do error codes mean?</strong></summary>
+
+- 401: Invalid API key
+- 403: Insufficient permissions or model not enabled
+- 429: Too many requests — retry later
+- 500: AI provider server error
 </details>
 
 <details>
@@ -110,7 +204,7 @@ Works on most websites. Excludes chrome:// system pages and some restricted doma
 <details>
 <summary><strong>What about OCR?</strong></summary>
 
-Right-click any image or take a screenshot to extract and explain text. Language packs auto-download on first use (EN: 20MB / JP: 50MB / ZH: 50MB).
+Right-click any image or take a screenshot to extract and explain text. OCR language packs auto-download on first use (EN: 20MB / JP: 50MB / ZH: 50MB). AI Vision mode can also understand charts, UI, and handwriting.
 </details>
 
 ---
@@ -118,18 +212,23 @@ Right-click any image or take a screenshot to extract and explain text. Language
 ## 🚀 Quick Start
 
 ```
-1. Download select-ai.zip
+1. Download select-ai.zip from the latest release
 2. Extract → Chrome → chrome://extensions/
 3. Enable Developer mode → Load unpacked
-4. Open Options page → Add your API Key (or use built-in free tier)
-5. Select text on any webpage → Click floating button
+4. Select text on any webpage → Click the floating AI button
 ```
+
+Or install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh).
+
+---
+
+## 📬 Feedback
+
+Built and maintained by [EndlessGr1ef](https://github.com/EndlessGr1ef). If you run into bugs, have ideas, or just want to say hi, feel free to open an issue or reach out.
 
 <div align="center">
 
-⭐ If you found it helpful, give us a Star
-
----
+⭐ If you found it helpful, give us a star
 
 *Made with ❤️ to make foreign language reading effortless*
 
