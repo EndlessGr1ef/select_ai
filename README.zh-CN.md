@@ -7,7 +7,7 @@
 <p align="center">
   <strong>💛 支持项目</strong><br/>
   <sub>独立开发，没有广告。如果解语帮到了你，欢迎请我喝瓶可乐。</sub><br/>
-  <img src="./assets/wechat-reward-code.png" alt="微信赞赏码" width="140" />
+  <img src="./assets/wechat-reward-code.png" alt="微信赞赏码" width="200" />
 </p>
 
 ---

@@ -7,7 +7,7 @@
 <p align="center">
   <strong>💛 Support the project</strong><br/>
   <sub>Indie open-source, no ads. If Select AI helped you, consider buying me a cola.</sub><br/>
-  <img src="./assets/wechat-reward-code.png" alt="WeChat reward code" width="140" />
+  <img src="./assets/wechat-reward-code.png" alt="WeChat reward code" width="200" />
 </p>
 
 ---
