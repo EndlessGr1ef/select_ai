@@ -1,6 +1,6 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> Select AI</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) ![Version](https://img.shields.io/badge/version-v0.11.0-8338ec?style=flat) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) ![Version](https://img.shields.io/badge/version-v0.13.0-8338ec?style=flat) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
 
 <p align="center">
   <strong>💛 Support the project</strong><br/>
@@ -71,15 +71,15 @@ One-click AI dual subtitles for YouTube videos. Reuses the video's existing capt
 
 ### 4. Image Recognition
 
-Right-click any image or take a screenshot to extract and explain text. Supports both local OCR and AI vision models.
+Right-click any image or take a screenshot to extract and explain text using AI Vision models.
 
 <p align="center">
   <img src="./assets/feature-ocr.png" alt="Image recognition" width="80%">
 </p>
 
-- OCR mode: completely local, no API cost
 - AI Vision mode: understands charts, UI screenshots, handwriting
 - Screenshot mode: select any area of the screen
+- Supports separate model configuration for image recognition
 
 ### More Capabilities
 
@@ -110,11 +110,12 @@ Right-click any image or take a screenshot to extract and explain text. Supports
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Free** (Default) | glm-4-flash | OpenAI |
+| **Select AI Built-in** (Default) | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
-| **OpenAI** | gpt-5 | OpenAI |
+| **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
-| **MiniMax** | MiniMax-M2.7 | Anthropic |
+| **MiniMax** | MiniMax-M3 | Anthropic |
+| **Gemini** | gemini-3.5-flash | OpenAI |
 | **Zhipu AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **Custom** | User-defined | OpenAI / Anthropic |
@@ -200,9 +201,9 @@ Works on most websites. Excludes chrome:// system pages and some restricted doma
 </details>
 
 <details>
-<summary><strong>What about OCR?</strong></summary>
+<summary><strong>What about image recognition?</strong></summary>
 
-Right-click any image or take a screenshot to extract and explain text. OCR language packs auto-download on first use (EN: 20MB / JP: 50MB / ZH: 50MB). AI Vision mode can also understand charts, UI, and handwriting.
+Right-click any image or take a screenshot to extract and explain text using AI Vision models. You can configure a separate model specifically for image recognition, or use your main explanation model if it supports vision.
 </details>
 
 ---

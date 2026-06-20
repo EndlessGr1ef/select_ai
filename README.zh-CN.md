@@ -1,6 +1,6 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> 解语</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) ![Version](https://img.shields.io/badge/version-v0.11.0-8338ec?style=flat) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) ![Version](https://img.shields.io/badge/version-v0.13.0-8338ec?style=flat) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
 
 <p align="center">
   <strong>💛 支持项目</strong><br/>
@@ -71,15 +71,15 @@
 
 ### 4. 图片识别 / 图片理解
 
-右键网页图片或截图，提取并解释其中的文字、图表与界面。
+右键网页图片或截图，使用 AI Vision 模型提取并解释其中的文字、图表与界面。
 
 <p align="center">
   <img src="./assets/feature-ocr.png" alt="图片识别" width="80%">
 </p>
 
-- OCR 模式：完全本地运行，不消耗 API
 - AI Vision 模式：直接看懂图表、UI 截图、手写文字
 - 截图模式：框选屏幕任意区域
+- 支持为图片识别配置独立的 AI 模型
 
 ### 更多能力
 
@@ -110,11 +110,12 @@
 
 | 提供商 | 默认模型 | 格式 |
 |--------|----------|------|
-| **AI划词解释(免费)**（默认） | glm-4-flash | OpenAI |
+| **解语**（默认） | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
-| **OpenAI** | gpt-5 | OpenAI |
+| **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
-| **MiniMax** | MiniMax-M2.7 | Anthropic |
+| **MiniMax** | MiniMax-M3 | Anthropic |
+| **Gemini** | gemini-3.5-flash | OpenAI |
 | **智谱 AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **自定义** | 用户自定义 | OpenAI / Anthropic |
@@ -202,7 +203,7 @@
 <details>
 <summary><strong>图片识别需要下载什么？</strong></summary>
 
-OCR 语言包首次使用自动下载（英语 20MB / 日语 50MB / 中文 50MB）。AI Vision 模式可以直接理解图表、UI 截图和手写文字。
+使用 AI Vision 模型进行图片识别，无需下载额外文件。你可以为图片识别配置独立的 AI 模型，也可以使用支持 Vision 的主解释模型。
 </details>
 
 ---
