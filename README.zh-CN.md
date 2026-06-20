@@ -110,7 +110,7 @@
 
 | 提供商 | 默认模型 | 格式 |
 |--------|----------|------|
-| **解语**（默认） | glm-4-flash | OpenAI |
+| **解语**（默认） | DeepSeek-V3.2 | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |

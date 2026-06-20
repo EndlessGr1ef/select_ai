@@ -110,7 +110,7 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Select AI Built-in** (Default) | glm-4-flash | OpenAI |
+| **Select AI Built-in** (Default) | DeepSeek-V3.2 | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
