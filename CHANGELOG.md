@@ -4,6 +4,23 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.16.0] - 2026-07-23
+
+### Added / 新增
+
+- Bilingual Translation now processes long pages in parallel. / 对照翻译会自动并行处理长页面。
+- YouTube Bilingual Subtitles now support Shorts and embedded players. / YouTube 双语字幕现已支持 Shorts 和嵌入式播放器。
+- Image Recognition now supports the free MiMo Vision model and auto-configures vision-capable selections. / 图片识别支持免费 MiMo Vision 模型，并在选择支持图片理解的模型时自动完成配置。
+- Image Recognition explanations now separate long source text from the explanation, with side-by-side source and translation columns. / 图片识别解释不再重复堆叠长篇原文，原文与译文支持左右对照显示。
+- Select AI branding and extension icons have been refreshed for clearer display at small sizes. / 解语品牌 Logo 与扩展图标完成更新，小尺寸场景显示更清晰。
+- Selection Explain floating button and settings interactions are smoother and easier to control. / 划词解释的浮动按钮和设置交互更顺畅，拖动、展开与收起更容易控制。
+
+### Improved / 改进
+
+- Bilingual Translation now uses model-specific output limits for more reliable long results. / 对照翻译按模型使用独立输出上限，长内容结果更稳定。
+- YouTube Bilingual Subtitles keep the correct font size in windowed playback. / YouTube 双语字幕在窗口化播放时保持正确字号。
+- The website About page and product introduction have been refreshed. / 官网 About 页面与产品介绍内容完成更新。
+
 ## [v0.15.5] - 2026-07-14
 
 ### Improved / 改进
@@ -39,6 +56,7 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 - Fixed an unrelated layout filter appearing in selection explanation settings. / 修复划词解释设置中误显示布局过滤器的问题。
 - Hid API concurrency settings where they do not apply to the built-in free provider. / 免费内置 AI 不再显示不适用的 API 并发数量设置。
 
+[v0.16.0]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.16.0
 [v0.15.5]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.5
 [v0.15.2]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.2
 [v0.15.1]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.1
