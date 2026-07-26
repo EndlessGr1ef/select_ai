@@ -4,6 +4,15 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.16.1] - 2026-07-26
+
+### Fixed / 修复
+
+- Bilingual Translation and YouTube Bilingual Subtitles now show clearer error messages in your output language. / 对照翻译和 YouTube 双语字幕的错误提示会随输出语言显示，提示更清晰易懂。
+- When the daily request limit is reached, next steps are tailored to your account status. / 用完每日额度时，会根据账号状态提供更合适的下一步操作。
+- Bilingual Translation no longer briefly shows streamed content identical to the original. / 对照翻译不再短暂显示与原文相同的流式内容，阅读更连贯。
+- YouTube Bilingual Subtitles stop retrying after the daily request limit is reached, avoiding repeated notices. / YouTube 双语字幕在每日额度用完后会停止重复请求，避免反复弹出提示。
+
 ## [v0.16.0] - 2026-07-23
 
 ### Added / 新增
@@ -57,6 +66,7 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 - Hid API concurrency settings where they do not apply to the built-in free provider. / 免费内置 AI 不再显示不适用的 API 并发数量设置。
 
 [v0.16.0]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.16.0
+[v0.16.1]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.16.1
 [v0.15.5]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.5
 [v0.15.2]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.2
 [v0.15.1]: https://github.com/EndlessGr1ef/select_ai/releases/tag/v0.15.1

@@ -1,15 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Rounded square background -->
-  <rect x="4" y="4" width="120" height="120" rx="20" ry="20" fill="url(#gradient)"/>
-
-  <!-- Gradient definition -->
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff006e"/>
-      <stop offset="100%" style="stop-color:#8338ec"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Lightning bolt icon -->
-  <path d="M68 16L36 68H60L52 112L84 60H60L68 16Z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title desc">
+  <title id="title">解语</title>
+  <desc id="desc">翻译按钮同款书页的插件图标光学校正版</desc>
+  <rect width="24" height="24" rx="5.2" fill="#FFF3F5" stroke="#F0D5DC" stroke-width=".45"/>
+  <g transform="translate(12 12) scale(1.1) translate(-12 -12)">
+    <path d="M3.75 5.3c2.65-.72 5.08-.24 7.25 1.38v11.86c-2.17-1.62-4.6-2.1-7.25-1.38V5.3Z" fill="#FFFCFD" stroke="#232124" stroke-width="1.55" stroke-linejoin="round"/>
+    <path d="M20.25 5.3c-2.65-.72-5.08-.24-7.25 1.38v11.86c2.17-1.62-4.6-2.1 7.25-1.38V5.3Z" fill="#FBE1E8" stroke="#E67898" stroke-width="1.55" stroke-linejoin="round"/>
+    <path d="M6.1 8.7c.9-.08 1.72.02 2.48.29M6.1 11.25c.9-.08 1.72.02 2.48.29" fill="none" stroke="#232124" stroke-width="1.25" stroke-linecap="round"/>
+    <path d="M17.9 8.7c-.9-.08-1.72.02-2.48.29M17.9 11.25c-.9-.08-1.72.02-2.48.29" fill="none" stroke="#E67898" stroke-width="1.25" stroke-linecap="round"/>
+  </g>
 </svg>
