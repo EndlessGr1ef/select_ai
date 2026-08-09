@@ -1,6 +1,6 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> Select AI</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![Version](https://img.shields.io/badge/version-v0.17.0-8338ec?style=flat)](./CHANGELOG.md) [![Changelog](https://img.shields.io/badge/Changelog-view-orange?style=flat)](./CHANGELOG.md) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web_Store-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Edge Add-ons](https://img.shields.io/badge/Edge-Add--ons-blue?style=flat&logo=microsoftedge)](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde) [![Firefox Add-ons](https://img.shields.io/badge/Firefox-Add--ons-orange?style=flat&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/) [![Website](https://img.shields.io/badge/Website-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![Version](https://img.shields.io/badge/version-v0.17.0-8338ec?style=flat)](./CHANGELOG.md) [![Changelog](https://img.shields.io/badge/Changelog-view-orange?style=flat)](./CHANGELOG.md) [![中文 README](https://img.shields.io/badge/中文-README-gray?style=flat)](./README.zh-CN.md)
 
 <p align="center">
   <strong>💛 Support the project</strong><br/>
@@ -211,7 +211,7 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 4. Select text on any webpage → Click the floating AI button
 ```
 
-Or install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh).
+Or install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh), the [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde), or the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/).
 
 ---
 
