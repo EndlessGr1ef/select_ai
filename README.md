@@ -110,7 +110,7 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Select AI Built-in** (Default) | DeepSeek V4 Flash | OpenAI |
+| **Select AI Built-in** (Default) | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
@@ -119,6 +119,7 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 | **Zhipu AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **Custom** | User-defined | OpenAI / Anthropic |
+| **MiMo** | mimo-v2.5 | OpenAI |
 
 ### Free Tier Limits
 

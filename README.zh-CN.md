@@ -110,7 +110,7 @@
 
 | 提供商 | 默认模型 | 格式 |
 |--------|----------|------|
-| **解语**（默认） | DeepSeek V4 Flash | OpenAI |
+| **解语**（默认） | glm-4-flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
 | **OpenAI** | gpt-5.4-mini | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
@@ -119,6 +119,7 @@
 | **智谱 AI** | glm-4-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **自定义** | 用户自定义 | OpenAI / Anthropic |
+| **MiMo** | mimo-v2.5 | OpenAI |
 
 ### 免费额度
 
