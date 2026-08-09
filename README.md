@@ -121,13 +121,6 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 | **Custom** | User-defined | OpenAI / Anthropic |
 | **MiMo** | mimo-v2.5 | OpenAI |
 
-### Free Tier Limits
-
-| User Type | Daily Limit |
-|-----------|-------------|
-| Guest | 20 requests |
-| Free User | 100 requests |
-
 ---
 
 ## ⌨️ Keyboard Shortcuts
