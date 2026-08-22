@@ -4,6 +4,13 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.18.0] - 2026-08-22
+
+### Added / 新增
+
+- YouTube bilingual subtitles can now be exported as dual-language SRT files or a plain-text transcript. / YouTube 双语字幕支持导出，可下载双语对照的 SRT 字幕文件或纯文本文稿。
+- The extension now shows a one-time update notice after each update, with a link to the website changelog; future notices can be turned off. / 新增版本更新提示，扩展更新后自动展示本次更新内容，可一键查看官网更新日志，也能关闭后续提醒。
+
 ## [v0.16.1] - 2026-07-26
 
 ### Fixed / 修复
