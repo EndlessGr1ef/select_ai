@@ -115,13 +115,13 @@
 
 | 提供商 | 默认模型 | 格式 |
 |--------|----------|------|
-| **解语**（默认） | glm-4-flash | OpenAI |
+| **解语**（默认） | DeepSeek-V4-Flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
-| **OpenAI** | gpt-5.4-mini | OpenAI |
+| **OpenAI** | gpt-5.6-luna | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M3 | Anthropic |
-| **Gemini** | gemini-3.5-flash | OpenAI |
-| **智谱 AI** | glm-4-flash | OpenAI |
+| **Gemini** | gemini-3.7-flash | OpenAI |
+| **智谱 AI** | glm-4.7-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **自定义** | 用户自定义 | OpenAI / Anthropic |
 | **MiMo** | mimo-v2.5 | OpenAI |
@@ -218,6 +218,14 @@
 ```
 
 也可以直接从 [Chrome 应用商店](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh)、[Edge 应用商店](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde) 或 [Firefox 应用商店](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/) 安装。
+
+---
+
+## 💬 交流群
+
+遇到问题或想交流使用心得？扫码加入解语交流群：
+
+<img src="https://select-ai.cn/images/wechat-group-code.png" alt="解语交流群二维码" width="160" />
 
 ---
 

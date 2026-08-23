@@ -115,13 +115,13 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
-| **Select AI Built-in** (Default) | glm-4-flash | OpenAI |
+| **Select AI Built-in** (Default) | DeepSeek-V4-Flash | OpenAI |
 | **DeepSeek** | deepseek-v4-flash | OpenAI |
-| **OpenAI** | gpt-5.4-mini | OpenAI |
+| **OpenAI** | gpt-5.6-luna | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M3 | Anthropic |
-| **Gemini** | gemini-3.5-flash | OpenAI |
-| **Zhipu AI** | glm-4-flash | OpenAI |
+| **Gemini** | gemini-3.7-flash | OpenAI |
+| **Zhipu AI** | glm-4.7-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **Custom** | User-defined | OpenAI / Anthropic |
 | **MiMo** | mimo-v2.5 | OpenAI |
@@ -218,6 +218,14 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 ```
 
 Or install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh), the [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde), or the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/).
+
+---
+
+## 💬 Community Group
+
+Questions or want to share tips? Scan the QR code to join the Select AI community group:
+
+<img src="https://select-ai.cn/images/wechat-group-code.png" alt="Select AI community group QR code" width="160" />
 
 ---
 
