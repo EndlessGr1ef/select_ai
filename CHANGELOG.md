@@ -4,12 +4,23 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
-## [v0.18.0] - 2026-08-22
+## [v0.18.0] - 2026-08-23
 
 ### Added / 新增
 
-- YouTube bilingual subtitles can now be exported as dual-language SRT files or a plain-text transcript. / YouTube 双语字幕支持导出，可下载双语对照的 SRT 字幕文件或纯文本文稿。
+- Export and download YouTube bilingual subtitles: missing translations are filled in with one click while progress is shown live, as dual-language SRT files or a plain-text transcript. / YouTube 双语字幕支持导出下载：一键补翻并实时显示进度，可下载双语对照的 SRT 字幕文件或纯文本文稿。
 - The extension now shows a one-time update notice after each update, with a link to the website changelog; future notices can be turned off. / 新增版本更新提示，扩展更新后自动展示本次更新内容，可一键查看官网更新日志，也能关闭后续提醒。
+- Added a DeepSeek vision model that can read images, with a refreshed model lineup. / 新增 DeepSeek 视觉模型，可识图；模型列表已按官方最新调整刷新。
+
+### Improved / 改进
+
+- Full-page translation now skips hidden menus and skip links, so results stay clean. / 整页翻译自动跳过隐藏菜单和页面跳转链接，翻译结果更干净。
+- Translation backgrounds now align to the left edge; the colored strip is gone. / 设置译文背景色后，译文文字贴左对齐，不再出现左侧色条。
+- Clicking translated text no longer triggers accidental navigation; inverted results on some pages are fixed. / 整页翻译译文不再被包进页面链接里，点击译文不会误触跳转；修复部分页面译文倒置显示。
+
+### Fixed / 修复
+
+- Translation reliability improved: missed items are auto-filled, interrupted batches retry and refund quota, and error messages are more accurate. / 翻译可靠性提升：漏译自动补译、中断自动重试并退还配额，错误提示更准确。
 
 ## [v0.16.1] - 2026-07-26
 
