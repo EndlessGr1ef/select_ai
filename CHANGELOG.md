@@ -4,6 +4,16 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.18.1] - 2026-08-28
+
+### Added / 新增
+
+- Customize your subtitle style: background opacity is freely adjustable (0% for a fully blank background), with bold text and text outline toggles, all grouped in a new "Subtitle style" submenu. / 字幕样式自定义：AI 字幕设置新增「字幕样式」二级菜单，背景不透明度可自由调整（调至 0% 即完全无背景），并支持字体加粗与文字描边。
+
+### Improved / 改进
+
+- Subtitle position is now a global preference shared across all sites; existing per-site settings migrate automatically. / 字幕位置改为全局生效，所有网站共享同一偏好，旧版按站点保存的设置自动迁移。
+
 ## [v0.18.0] - 2026-08-23
 
 ### Added / 新增
