@@ -4,6 +4,16 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.18.3] - 2026-09-03
+
+### Improved / 改进
+
+- Smarter explanations: words, sentences, headings and code are told apart more accurately, so explanations match your selection. / 划词解释更智能：更准确区分词语、句子、标题与代码，解释更贴合所选内容。
+
+### Fixed / 修复
+
+- Selecting a single word inside a heading now explains it as a term instead of the whole heading. / 选中标题中的个别词语时，改为按词语给出术语解释，不再误当整段标题。
+
 ## [v0.18.2] - 2026-08-30
 
 ### Improved / 改进
