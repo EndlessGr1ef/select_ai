@@ -4,6 +4,16 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.19.0] - 2026-09-05
+
+### Added / 新增
+
+- Google quick sign-in: sign in with your Google account in one click from the settings page or toolbar popup — your quota and membership status sync automatically. / 新增 Google 快捷登录：在设置页或工具栏弹窗使用 Google 账号一键登录，配额与会员状态自动同步。
+
+### Improved / 改进
+
+- Faster image recognition: deep thinking is now off by default for image recognition, so results arrive noticeably sooner. / 图片识别提速：识图默认关闭深度思考，等待时间明显缩短。
+
 ## [v0.18.3] - 2026-09-03
 
 ### Improved / 改进
