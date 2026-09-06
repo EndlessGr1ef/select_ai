@@ -4,15 +4,18 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
-## [v0.19.0] - 2026-09-05
+## [v0.19.0] - 2026-09-06
 
 ### Added / 新增
 
-- Google quick sign-in: sign in with your Google account in one click from the settings page or toolbar popup — your quota and membership status sync automatically. / 新增 Google 快捷登录：在设置页或工具栏弹窗使用 Google 账号一键登录，配额与会员状态自动同步。
+- Longer-lasting sign-in: stay signed in with automatic recovery after network hiccups, no frequent re-logins. / 登录状态更持久：长期保持在线，网络波动后自动恢复，无需频繁重新登录。
 
 ### Improved / 改进
 
+- Zhipu AI default model updated to GLM-5.3-Flash, with image understanding support. / 智谱 AI 默认模型更新为 GLM-5.3-Flash，并支持图片理解。
 - Faster image recognition: deep thinking is now off by default for image recognition, so results arrive noticeably sooner. / 图片识别提速：识图默认关闭深度思考，等待时间明显缩短。
+- Full-page translation improvements: supports more page layouts, skips banners and fixed chrome, and fixes duplicate link translations and leftover blank lines. / 整页翻译体验提升：适配更多网页排版、自动跳过横幅导航等固定内容，并修复链接译文重复与多余空行。
+- Faster extension UI loading. / 扩展界面加载更快。
 
 ## [v0.18.3] - 2026-09-03
 
