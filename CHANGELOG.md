@@ -4,6 +4,16 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.20.0] - 2026-09-09
+
+### Added / 新增
+
+- Google quick sign-in from the settings page or the popup; accounts with the same email are linked automatically, with your Google name and picture shown after sign-in. / Google 快捷登录：设置页与扩展弹窗可直接用 Google 账号登录，同邮箱账号自动关联，登录后显示姓名与头像。
+
+### Improved / 改进
+
+- Full-page translation improvements: smoother incremental translation on long pages like Reddit, and hidden and decorative content is skipped automatically. / 整页翻译优化：Reddit 等长页面增量翻译更流畅，自动跳过隐藏与装饰内容。
+
 ## [v0.19.0] - 2026-09-06
 
 ### Added / 新增
