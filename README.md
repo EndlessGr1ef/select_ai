@@ -116,12 +116,12 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 | Provider | Default Model | Format |
 |----------|---------------|--------|
 | **Select AI Built-in** (Default) | DeepSeek-V4-Flash | OpenAI |
-| **DeepSeek** | deepseek-v4-flash | OpenAI |
+| **DeepSeek** | deepseek-flash | OpenAI |
 | **OpenAI** | gpt-5.6-luna | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M3 | Anthropic |
 | **Gemini** | gemini-3.7-flash | OpenAI |
-| **Zhipu AI** | glm-4.7-flash | OpenAI |
+| **Zhipu AI** | glm-5.3-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **Custom** | User-defined | OpenAI / Anthropic |
 | **MiMo** | mimo-v2.5 | OpenAI |

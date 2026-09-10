@@ -116,12 +116,12 @@
 | 提供商 | 默认模型 | 格式 |
 |--------|----------|------|
 | **解语**（默认） | DeepSeek-V4-Flash | OpenAI |
-| **DeepSeek** | deepseek-v4-flash | OpenAI |
+| **DeepSeek** | deepseek-flash | OpenAI |
 | **OpenAI** | gpt-5.6-luna | OpenAI |
 | **Anthropic** | claude-haiku-4-5 | Anthropic |
 | **MiniMax** | MiniMax-M3 | Anthropic |
 | **Gemini** | gemini-3.7-flash | OpenAI |
-| **智谱 AI** | glm-4.7-flash | OpenAI |
+| **智谱 AI** | glm-5.3-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **自定义** | 用户自定义 | OpenAI / Anthropic |
 | **MiMo** | mimo-v2.5 | OpenAI |

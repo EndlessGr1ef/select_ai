@@ -4,7 +4,7 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
-## [v0.20.0] - 2026-09-09
+## [v0.20.0] - 2026-09-11
 
 ### Added / 新增
 
@@ -12,7 +12,14 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 ### Improved / 改进
 
-- Full-page translation improvements: smoother incremental translation on long pages like Reddit, and hidden and decorative content is skipped automatically. / 整页翻译优化：Reddit 等长页面增量翻译更流畅，自动跳过隐藏与装饰内容。
+- The DeepSeek provider now defaults to V4.1 Flash with native image understanding. / DeepSeek 提供商默认模型升级为 V4.1 Flash（原生支持图片理解）。
+- Automatic incremental translation on long feed pages like Reddit. / Reddit 等长信息流页面支持自动增量翻译。
+
+### Fixed / 修复
+
+- Shorter selections ending in a period are still explained as terms, and X/Twitter-style post bodies are no longer mistaken for code. / 划词解释修复：以句号结尾的短词条仍按词语解释，X/Twitter 等页面正文不再被误判为代码。
+- Images already in your output language no longer show a duplicate translation column. / 图片识别修复：原文与输出语言相同的图片不再显示重复的译文列。
+- Expanding a long source text in the panel now scrolls, so the collapse button and the explanation stay reachable. / 面板修复：展开较长的原文后可正常滚动，折叠按钮与解释内容不再被挤走。
 
 ## [v0.19.0] - 2026-09-06
 
