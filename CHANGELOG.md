@@ -4,6 +4,18 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.21.0] - 2026-09-13
+
+### Added / 新增
+
+- Translation styles for web page translation and video subtitles separately — Standard, Idiomatic Chinese, LinkedIn Speak, Formal, Casual or Classical Chinese — so the model rewrites the register instead of translating literally; Chinese output uses Idiomatic Chinese by default. / 翻译风格：网页翻译与视频字幕可分别选择标准直译 / 地道中文 / LinkedIn 黑话 / 正式书面 / 口语随意 / 古文，模型会改写译文语气而不只是逐字直译；中文输出默认使用「地道中文」。
+- An "Off" option for the selection trigger, so selecting text no longer pops up the pink-purple dot; Ctrl+E still explains the current selection. / 划词触发方式新增「关闭」选项：选中文字不再弹出粉紫色小圆点，Ctrl+E 仍可解释选中文本。
+- Per-site auto-translate: after browsing several pages on a site, one click makes it translate automatically. The prompt appears at most three times, and "Don't ask again" turns it off for good. / 站点自动翻译：同一网站浏览多个页面后可一键设为自动翻译，询问最多出现 3 次，也可一键「以后不再提醒」。
+
+### Improved / 改进
+
+- The translation filter switches now really work: turning off the CSS blacklist stops every hidden filter, and the header, footer and sidebar rules are separate switches. / 翻译过滤开关真正生效：关闭 CSS 黑名单后不再残留隐藏过滤，页眉、页脚、侧边栏规则改为各自独立的开关。
+
 ## [v0.20.0] - 2026-09-11
 
 ### Added / 新增
