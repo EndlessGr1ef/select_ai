@@ -4,6 +4,14 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.21.1] - 2026-09-19
+
+### Fixed / 修复
+
+- Auto-translate on sites that load content as you browse (like Reddit): text that appears a moment after you move between pages is no longer skipped and gets translated. / 自动翻译修复：在 Reddit 等边浏览边加载内容的网站上，站内跳转后稍晚出现的正文不再被漏掉，会自动补译。
+- Clicking a link inside an already translated X/Twitter post no longer drops that post's translation. / X/Twitter 修复：点击已翻译推文正文里的链接，不再丢掉这条推文的译文。
+- Free-tier model fix: turning thinking off no longer returns reasoning text, so image recognition and explanations respond faster. / 免费档模型修复：关闭思考后不再返回思考内容，识图与解释的响应更快。
+
 ## [v0.21.0] - 2026-09-13
 
 ### Added / 新增
