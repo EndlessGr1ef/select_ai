@@ -8,8 +8,8 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 ### Fixed / 修复
 
-- Full-page translation on documentation sites: body paragraphs used to show only the links inside them translated while the paragraph itself stayed in the original language; the whole paragraph is translated now. / 网页翻译修复：部分技术文档网站的正文段落此前只翻出了段落里的链接、整段没有译文，现在整段正常翻译。
-- Replace display mode: when a paragraph's translation fails or is interrupted, the page goes back to the original text instead of keeping a half-written translation. / 替换显示模式修复：某段译文生成失败或中途中断时，页面恢复原文，不再留下半截译文。
+- Full-page translation fix: body paragraphs on some documentation sites are no longer left untranslated — the whole paragraph is translated now. / 网页翻译修复：部分文档网站的正文段落不再漏译，现在整段正常翻译。
+- Replace display mode fix: when a translation fails or is interrupted, the page goes back to the original text instead of keeping a half-written one. / 替换显示模式修复：译文生成失败或中断时恢复原文，不再留下半截译文。
 
 ## [v0.21.1] - 2026-09-19
 
