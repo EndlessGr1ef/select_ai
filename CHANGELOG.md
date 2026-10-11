@@ -4,6 +4,24 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.21.5] - 2026-10-11
+
+### Added / 新增
+
+- Translate a whole web page from the right-click menu, without opening the toolbar first. / 网页翻译新增右键入口：在页面上右键选择「网页翻译」即可翻译整页，不必先打开工具栏。
+
+### Changed / 改进
+
+- The selection dot now sits beside your selection instead of covering the text, and repeated clicks are no longer read as a drag. / 划词浮标位置优化：浮标落在选区附近、不再遮挡文字，连续点击也不会被误判成拖动。
+
+### Fixed / 修复
+
+- Paragraphs inside clipped containers (some documentation sites and galleries) are no longer left untranslated. / 网页翻译修复：被裁剪容器内的整段文字不再停留在原文。
+- A translation no longer picks up fragments of the source text when it is written back. / 对照翻译修复：译文回填时不再把原文片段漏进译文。
+- Signing in with Google from the popup no longer breaks when the popup closes. / Google 登录修复：从工具栏弹窗发起的登录不再中断。
+- Requests made with a favorite model now use the base URL saved with that model. / 常用模型修复：使用常用模型时会带上它自己保存的地址。
+- A failed upstream request now reports a readable one-line explanation. / 报错更好读：上游请求失败时给出一行可读的错误说明。
+
 ## [v0.21.2] - 2026-09-20
 
 ### Fixed / 修复
