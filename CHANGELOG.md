@@ -4,6 +4,15 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.21.6] - 2026-10-22
+
+### Fixed / 修复
+
+- The explanation now follows the text you selected instead of occasionally explaining the page title. / 划词解释修复：解释内容严格对应你划选的文字，不再偶尔解释成网页标题。
+- On a double- or triple-click the dot stays at the selection's top-left corner, and it no longer flashes during a drag. / 划词浮标修复：双击、三击时浮标固定在选区左上角，框选时不再先闪一下再跳到末端。
+- A paragraph that contains a link is translated as a whole instead of only its link. / 网页翻译修复：段落里带链接时整段都能翻译，不再只剩链接被翻译。
+- Captions for long videos no longer fail on a timeout, and the page keeps the reason and the retry button. / 视频双语字幕修复：长视频字幕解析不再超时失败，出错时保留原因与重试按钮。
+
 ## [v0.21.5] - 2026-10-11
 
 ### Added / 新增
