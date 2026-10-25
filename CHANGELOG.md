@@ -6,9 +6,18 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 ## [v0.22.0] - 2026-10-25
 
+### Added / 新增
+
+- Custom prompts: write translation rules per group in the settings page and scope them to specific sites; term, style and rule types. / 自定义提示词：在设置页按分组写下翻译规则，可限定只在某些网站生效；支持术语、风格、规则等类型。
+
 ### Changed / 改进
 
+- Settings refresh: a section index that jumps to any setting and follows the scroll, segmented buttons for output language and translation style, and a dedicated Language card. / 设置页改版：新增区块导航，可一键跳到对应设置并跟随滚动高亮；输出语言、翻译风格等选项改为分段按钮，语言设置独立成卡片。
 - Full-page translation starts sooner: on content-heavy pages, the wait between clicking translate and the first translated text is noticeably shorter. / 整页翻译提速：内容多的网页，点翻译后到开始出译文之间的等待明显缩短。
+
+### Fixed / 修复
+
+- Clicking the output language you already use now re-syncs the interface language, so the two no longer drift apart. / 语言设置修复：再次点击当前输出语言时，界面语言会重新同步，不再出现界面语言与输出语言不一致。
 
 ## [v0.21.6] - 2026-10-22
 
