@@ -4,6 +4,12 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.22.0] - 2026-10-25
+
+### Changed / 改进
+
+- Full-page translation starts sooner: on content-heavy pages, the wait between clicking translate and the first translated text is noticeably shorter. / 整页翻译提速：内容多的网页，点翻译后到开始出译文之间的等待明显缩短。
+
 ## [v0.21.6] - 2026-10-22
 
 ### Fixed / 修复
