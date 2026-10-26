@@ -4,6 +4,12 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.22.2] - 2026-10-26
+
+### Fixed / 修复
+
+- After typing a custom model name in the model field, clicking outside saves it instead of falling back to the provider default. / 自定义模型修复：在模型下拉框里输入自定义模型名后，点击框外即保存该模型，不再自动切回当前服务商的默认模型。
+
 ## [v0.22.1] - 2026-10-26
 
 ### Added / 新增
