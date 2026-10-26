@@ -4,6 +4,12 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.22.2] - 2026-10-26
+
+### Fixed / 修复
+
+- YouTube bilingual subtitle fix: videos with native captions no longer report empty caption content. / YouTube 双语字幕修复：有原生字幕的视频不再提示“字幕内容为空”。
+
 ## [v0.22.1] - 2026-10-26
 
 ### Added / 新增
