@@ -1,6 +1,6 @@
 <h1><img src="logo.svg" width="32" height="32" alt="logo" style="vertical-align: middle;"> 解语</h1>
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Edge 应用商店](https://img.shields.io/badge/Edge-应用商店-blue?style=flat&logo=microsoftedge)](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde) [![Firefox 应用商店](https://img.shields.io/badge/Firefox-应用商店-orange?style=flat&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![Version](https://img.shields.io/badge/version-v0.22.0-8338ec?style=flat)](./CHANGELOG.md) [![更新日志](https://img.shields.io/badge/更新日志-查看-orange?style=flat)](./CHANGELOG.md) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-应用商店-green?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh) [![Edge 应用商店](https://img.shields.io/badge/Edge-应用商店-blue?style=flat&logo=microsoftedge)](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde) [![Firefox 应用商店](https://img.shields.io/badge/Firefox-应用商店-orange?style=flat&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/) [![Website](https://img.shields.io/badge/官网-select--ai.cn-blue?style=flat)](https://select-ai.cn) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) [![Version](https://img.shields.io/badge/version-v0.22.1-8338ec?style=flat)](./CHANGELOG.md) [![更新日志](https://img.shields.io/badge/更新日志-查看-orange?style=flat)](./CHANGELOG.md) [![English README](https://img.shields.io/badge/English-README-gray?style=flat)](./README.md)
 
 <p align="center">
   <img src="./assets/homepage-demo-hero.png" alt="Select AI demo" width="100%" />
@@ -117,14 +117,14 @@
 |--------|----------|------|
 | **解语**（默认） | deepseek-flash（DeepSeek V4.1 Flash） | OpenAI |
 | **DeepSeek** | deepseek-flash | OpenAI |
-| **OpenAI** | gpt-5.6-luna | OpenAI |
-| **Anthropic** | claude-haiku-4-5 | Anthropic |
-| **MiniMax** | MiniMax-M3 | Anthropic |
-| **Gemini** | gemini-3.7-flash | OpenAI |
+| **OpenAI** | gpt-6-luna | OpenAI |
+| **Anthropic** | claude-haiku-5-5 | Anthropic |
+| **MiniMax** | MiniMax-M3.1-Flash | Anthropic |
+| **Gemini** | gemini-3.8-flash | OpenAI |
 | **智谱 AI** | glm-5.3-flash | OpenAI |
 | **Kimi** | kimi-k2.6 | OpenAI |
 | **自定义** | 用户自定义 | OpenAI / Anthropic |
-| **MiMo** | mimo-v2.5 | OpenAI |
+| **MiMo** | mimo-v2.6-flash | OpenAI |
 
 ---
 

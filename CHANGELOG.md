@@ -4,6 +4,17 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
+## [v0.22.1] - 2026-10-26
+
+### Added / 新增
+
+- Model lineup update: GPT-6, Claude 5.5, Gemini 3.8 and MiMo V2.6 are available with refreshed defaults, while older ids such as Gemini 3.7, MiniMax M2.7 and MiMo V2.5 are gone; DeepSeek now lists only V4.1 Flash and V4 Pro. / 模型阵容更新：GPT-6、Claude 5.5、Gemini 3.8、MiMo V2.6 等新款上线，默认模型同步升级；Gemini 3.7、MiniMax M2.7、MiMo V2.5 等旧型号不再显示；DeepSeek 精简为 V4.1 Flash 与 V4 Pro。
+
+### Fixed / 修复
+
+- A typed custom model name is no longer reset after a restart, and Enter uses the typed name. / 自定义模型修复：手填的模型名重启后不再被重置，按 Enter 会直接使用输入内容。
+- Guests no longer hit an invalid-token error when submitting a suggestion after a week. / 反馈提交修复：游客使用超过 7 天后，提交建议不再报凭证无效。
+
 ## [v0.22.0] - 2026-10-25
 
 ### Added / 新增
