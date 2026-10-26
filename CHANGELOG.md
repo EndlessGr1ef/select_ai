@@ -4,12 +4,6 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 这里记录解语面向用户的重要更新。安装包与完整发布说明请前往 [GitHub Releases](https://github.com/EndlessGr1ef/select_ai/releases) 查看。
 
-## [v0.22.2] - 2026-10-26
-
-### Fixed / 修复
-
-- After typing a custom model name in the model field, clicking outside saves it instead of falling back to the provider default. / 自定义模型修复：在模型下拉框里输入自定义模型名后，点击框外即保存该模型，不再自动切回当前服务商的默认模型。
-
 ## [v0.22.1] - 2026-10-26
 
 ### Added / 新增
@@ -18,7 +12,7 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 ### Fixed / 修复
 
-- A typed custom model name is no longer reset after a restart, and Enter uses the typed name. / 自定义模型修复：手填的模型名重启后不再被重置，按 Enter 会直接使用输入内容。
+- A typed custom model name is no longer reset after a restart, and Enter or a click outside saves it. / 自定义模型修复：手填的模型名重启后不再被重置，按 Enter 或点击框外都会保存输入内容。
 - Guests no longer hit an invalid-token error when submitting a suggestion after a week. / 反馈提交修复：游客使用超过 7 天后，提交建议不再报凭证无效。
 
 ## [v0.22.0] - 2026-10-25
