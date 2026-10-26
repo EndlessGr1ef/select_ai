@@ -9,9 +9,21 @@
 
 <p align="center">
   <strong>💛 支持项目</strong><br/>
-  <sub>独立开发，没有广告。如果解语帮到了你，欢迎请我喝瓶可乐。</sub><br/>
-  <img src="./assets/wechat-reward-code.png" alt="微信赞赏码" width="200" />
+  <sub>独立开发，没有广告。扫码加入交流群，或者请我喝瓶可乐。</sub>
 </p>
+
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://select-ai.cn/images/wechat-group-code.png" alt="解语交流群二维码" width="180" /><br/>
+      <sub>加入交流群</sub>
+    </td>
+    <td align="center" valign="top">
+      <img src="./assets/wechat-reward-code.png" alt="微信赞赏码" width="180" /><br/>
+      <sub>请我喝瓶可乐</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -218,14 +230,6 @@
 ```
 
 也可以直接从 [Chrome 应用商店](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8A/ehcjdmkcnjniaofflhghckpgmjmbgkjh)、[Edge 应用商店](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde) 或 [Firefox 应用商店](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/) 安装。
-
----
-
-## 💬 交流群
-
-遇到问题或想交流使用心得？扫码加入解语交流群：
-
-<img src="https://select-ai.cn/images/wechat-group-code.png" alt="解语交流群二维码" width="160" />
 
 ---
 

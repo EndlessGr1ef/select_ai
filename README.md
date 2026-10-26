@@ -9,9 +9,21 @@
 
 <p align="center">
   <strong>💛 Support the project</strong><br/>
-  <sub>Solo indie project, no ads. If Select AI helped you, consider buying me a cola.</sub><br/>
-  <img src="./assets/wechat-reward-code.png" alt="WeChat reward code" width="200" />
+  <sub>Solo indie project, no ads. Scan to join the community group, or buy me a cola if it helped you.</sub>
 </p>
+
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://select-ai.cn/images/wechat-group-code.png" alt="Select AI community group QR code" width="180" /><br/>
+      <sub>Community group</sub>
+    </td>
+    <td align="center" valign="top">
+      <img src="./assets/wechat-reward-code.png" alt="WeChat reward code" width="180" /><br/>
+      <sub>Buy me a cola</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -218,14 +230,6 @@ Right-click any image or take a screenshot to extract and explain text using AI 
 ```
 
 Or install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/select-ai-ai%E5%88%92%E8%AF%8D%E8%A7%A3%E9%87%8B/ehcjdmkcnjniaofflhghckpgmjmbgkjh), the [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/select-ai-explain-tra/ihmkejknobkglabjodamfigdhafohcde), or the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/select-ai-explain-translate/).
-
----
-
-## 💬 Community Group
-
-Questions or want to share tips? Scan the QR code to join the Select AI community group:
-
-<img src="https://select-ai.cn/images/wechat-group-code.png" alt="Select AI community group QR code" width="160" />
 
 ---
 
