@@ -6,6 +6,10 @@ Notable user-facing changes to Select AI are recorded here. For installation pac
 
 ## [v0.22.2] - 2026-10-26
 
+### Added / 新增
+
+- Gemini 4 Argon is now selectable: the Gemini 4 flagship with a 1M context and image understanding, while the cheaper Gemini 3.8 Flash stays the default. / 新增 Gemini 4 Argon：Gemini 4 旗舰可选，1M 上下文并支持图片理解；默认仍为更便宜的 Gemini 3.8 Flash。
+
 ### Fixed / 修复
 
 - YouTube bilingual subtitle fix: videos with native captions no longer report empty caption content. / YouTube 双语字幕修复：有原生字幕的视频不再提示“字幕内容为空”。
